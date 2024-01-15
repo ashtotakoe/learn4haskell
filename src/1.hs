@@ -576,8 +576,8 @@ True
 >>> isVowel 'x'
 False
 -}
-isVowel c = error "isVowel: not implemented!"
-
+isVowel :: Char -> Bool
+isVowel c = c `elem` "aeiouAEIOU"
 
 {- |
 == Local variables and functions

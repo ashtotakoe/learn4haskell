@@ -39,7 +39,6 @@ Now, if you are ready, bring it on!
 -}
 
 module Chapter2 where
-
 {-
 =🛡= Imports
 
